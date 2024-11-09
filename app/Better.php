@@ -10,6 +10,6 @@ class Better extends Model
 
     public function horse()
     {
-        return $this->belongsTo('App\Horse');
+        return $this->belongsTo(\App\Horse::class);
     }
 }
