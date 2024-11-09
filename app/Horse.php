@@ -10,6 +10,6 @@ class Horse extends Model
 
     public function better()
     {
-        return $this->hasMany('App\Better');
+        return $this->hasMany(\App\Better::class);
     }
 }
